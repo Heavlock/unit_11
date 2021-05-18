@@ -1,11 +1,11 @@
 const initialState = {
-    goods:[
+    user:[
         {
             passport:155235,
-            name:'Nutella паста ореховая',
+            name:'evgen',
             age:'30'
         }
     ]
 }
 
-export  default initialState;
+export default initialState;
