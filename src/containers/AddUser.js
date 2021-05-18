@@ -6,8 +6,6 @@ function AddUser() {
 
     function formHandler(ev) {
         ev.preventDefault();
-        // console.log('отправлено');
-        // console.log(ev.target.elements);
         let data = ev.target.elements;
         dispatch(addNewUsers(data.name.value, data.passport.value, data.age.value));
     }

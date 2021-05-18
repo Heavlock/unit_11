@@ -1,7 +1,4 @@
  function List(state){
-    console.log('=================');
-     console.log(state);
-    console.log('=================');
 
     return(
         <>
@@ -14,7 +11,7 @@
                 </tr>
                 </thead>
                 <tbody>
-                {/*{state.user.map(el=><tr><td>{el.name}</td></tr>)}*/}
+                {state.user.map(el=><tr key={el.passport}><td>{el.passport}</td><td>{el.name}</td><td>{el.age}</td></tr>)}
                 </tbody>
             </table>
         </>
